@@ -43,5 +43,7 @@ body, html {
 }
 .Newsthings {
     background-color: #a6a7a5; 
-     padding: 400px 0;
+     padding: 10px 10px;
+    text-align: center;
+    border: 3px solid #6d6f6b;
 }
