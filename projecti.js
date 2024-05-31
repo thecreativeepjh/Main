@@ -20,3 +20,24 @@ function openPage(pageName,elmnt,color) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+document.getElementById('comand').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form from submitting the traditional way
+
+    // Get the answer from the input field
+    const comand = document.getElementById('comand');
+    const pasward = document.getElementById('pasward');
+
+    // Check if the answer is correct
+    const cpas = "1234";
+    const white = "text white"
+    if (pasward === cpas) {
+        if (comand === white) {
+            document.getElementById('alltext').style.color = "black";
+        } else {
+            document.getElementById('alltext').style.color = "white";
+        }
+    } else {
+        document.body.className = 'incorrect'; // Change background color to red
+    }
+});
