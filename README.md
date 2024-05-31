@@ -19,9 +19,10 @@
 <div id="News" class="tabcontent">
   <h3 id="text">News</h3>
   <p id="text">Find out what is curently happening.</p> 
-    <p> </p>
-    <p>For a school project in grade 8 I made a website.</p>
-    <p>You can visir my school project on <a href="https://thecreativeepjh.github.io/water/">water polution</a></p>
+    <div id="first" class="Newsthings">
+        <p>For a school project in grade 8 I made a website.</p>
+        <p>You can visir my school project on <a href="https://thecreativeepjh.github.io/water/">water polution</a></p>
+    </div>
 </div>
 
 <div id="Contact" class="tabcontent">
