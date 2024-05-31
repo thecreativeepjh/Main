@@ -31,7 +31,6 @@
 <div id="Settings" class="tabcontent">
   <h3 id="text">About</h3>
   <p id="text">Who we are and what we do.</p>
-
     <input type="color" id="clr">
     <button onclick="func()">Change colour</button>
 </div>
