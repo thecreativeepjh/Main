@@ -9,7 +9,7 @@
     <button class="tablink" onclick="openPage('Home', this, 'grey')">Home</button>
 <button class="tablink" onclick="openPage('News', this, 'grey')" id="defaultOpen">News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'grey')">Contact</button>
-<button class="tablink" onclick="openPage('Settings', this, 'grey')">About</button>
+<button class="tablink" onclick="openPage('Settings', this, 'grey')">Settings</button>
 
 <div id="Home" class="tabcontent">
   <h3 id="text">Home</h3>
