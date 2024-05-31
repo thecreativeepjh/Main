@@ -21,7 +21,7 @@ function openPage(pageName,elmnt,color) {
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
 
-document.getElementById('comand').addEventListener('sendb', function(event) {
+document.getElementById('comand').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form from submitting the traditional way
 
     // Get the answer from the input field
