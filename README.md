@@ -15,7 +15,7 @@
   <h3 id="text">Home</h3>
   <p id="text">Where you will do stuff.</p>
     <p id='alltext'>this text will change</p>
-    <input id="comand type="text">
+    <input id="comand" type="text">
     <input id="pasward" type="text">
     <button id="sendb">send</button>
 </div>
