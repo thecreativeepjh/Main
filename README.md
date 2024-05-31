@@ -17,7 +17,7 @@
     <p id='alltext'>this text will change</p>
     <input id="comand" type="text">
     <input id="pasward" type="text">
-    <button id="sendb">send</button>
+    <button type="submit">send</button>
 </div>
 
 <div id="News" class="tabcontent">
