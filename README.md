@@ -14,9 +14,9 @@
 <div id="Home" class="tabcontent">
   <h3 id="text">Home</h3>
   <p id="text">Where you will do stuff.</p>
-    <input type="text">
-    <input type="pasward">
-    <button>send</button>
+    <input id="comand type="text">
+    <input id="pasward" type="text">
+    <button id="sendb">send</button>
 </div>
 
 <div id="News" class="tabcontent">
