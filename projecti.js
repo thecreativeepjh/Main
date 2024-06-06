@@ -38,7 +38,6 @@ function input_out() {
             document.getElementById('alltext').style.color = "white";
         }
     } else {
-        document.body.className = 'incorrect'; // Change background color to red
-    }
+        window.alert('na'); // Change background color to red
     }
 }
