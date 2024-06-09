@@ -20,8 +20,11 @@ function openPage(pageName,elmnt,color) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
-
+function button_on() {
+    alert('hiiiiiiiii');
+}
 function input_out() {
+    window.alert('hi');
     let comandin = document.getElementById('comand');
     let comand = comandin.value;
     let paswardin = document.getElementById('pasward');
@@ -30,9 +33,9 @@ function input_out() {
     // Check if the answer is correct
     const cpas = "1234";
     const white = "text white";
-    if (pasward === cpas) {
+    if (pasward == cpas) {
         window.alert('hi');
-        if (comand === white) {
+        if (comand == white) {
             document.getElementById('alltext').style.color = "black";
         } else {
             document.getElementById('alltext').style.color = "white";
