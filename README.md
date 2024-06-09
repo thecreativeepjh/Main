@@ -15,10 +15,9 @@
   <p id="text">Where you will do stuff.</p>
     <p id='alltext'>this text will change</p>
     <input id="comand" type="text">
+    <p></p>
     <input id="pasward" type="text">
     <button onclick="input_out()">submit button</button>
-    <p>hi</p>
-    <button onclick="button_on()"></button>
 </div>
 
 <div id="News" class="tabcontent">
