@@ -17,6 +17,7 @@
     <input id="comand" type="text">
     <input id="pasward" type="text">
     <button onclick="input_out">submit button</button>
+    <p>hi</p>
     <button onclick="button_on"></button>
 </div>
 
